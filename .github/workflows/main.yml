@@ -14,5 +14,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.DISPATCH_TOKEN }}
-          repository: bhardwaj-addweb/ansible
+          repository: bhardwaj-addweb/tas1
           event-type: repo-updated
